@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nazoratishi</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+  </head>
+  <body>
+    
+    <div class="container d-flex ">
+     <div class="border-end border-4 w-75">
+      <h1 class="text-center mt-3">PITSA BUYURTMA QILISH</h1>
+   
+   <form class="site-form d-flex flex-column w-25">
+    <label class="mb-2" for="select">Noniqanday bo'lsin?</label>
+    <select class="site-select rounded-2 form-select" id="select">
+      <option value="non turi" hidden>Noni qalinligini tanlang</option>
+      
+      <option value="yupqa">yupqa</option>
+
+      <option value="ortacha">ortacha</option>
+      
+      <option value="qalin">qalin</option>
+    </select>
+  </form>
+  
+  
+  <form class="hero__from" id="buttun">
+    <label class="hero__label h3 form-label mt-2 mb-4" for="size">Kataligi</label>
+    <div class="w-50 d-flex" id="size">
+      <label class="input-group w-25 ms-4">
+        <input class="hero__radio visually-hidden" type="radio" name="user_radioF">
+        <span class="radio__input rounded-pill border border-dark p-4 px-3">25 cm</span>
+      </label>
+      
+      <label class="input-group w-25">
+        <input class="hero__radio-two visually-hidden" type="radio" name="user_radioS">
+        <span class="radio__input-two rounded-pill ms-2 border border-dark p-4 px-3">30 cm</span>
+      </label>
+      
+      <label class="input-group w-25">
+        <input class="hero__radio-three visually-hidden" type="radio" name="user_radioT">
+        <span class="radio__input-three rounded-pill ms-2 border border-dark p-4 px-3">35 cm</span>
+      </label>
+    </div>
+  </form>
+  
+  <h2 class="h3 mt-4">Ustiga nma solaylik?</h2>
+  <form class="d-flex px-3 intro__form" id="buttun">
+    <div class="d-flex flex-column">
+      <div class="d-flex">
+        <input class="intro__checkbox" id="pomidor" type="checkbox">
+        <label class="p-2 h5" for="pomidor">Pomidor</label>
+      </div>
+      
+      <div class="d-flex">
+        <input class="intro__checkbox-two" id="KurkaGoshti" type="checkbox">
+        <label class="p-2 h5" for="KurkaGoshti">Kurka goshti</label>
+      </div>
+      
+      <div class="d-flex">
+        <input class="intro__checkbox-three" id="Zaytun" type="checkbox">
+        <label class="p-2 h5" for="Zaytun">Zaytun</label>
+      </div>
+    </div>
+    <div class="d-flex flex-column ms-5">
+      <div class="d-flex">
+        <input class="intro__checkbox-four" id="Tuzlangan_bodiring" type="checkbox">
+        <label class="p-2 h5" for="Tuzlangan_bodiring">Tuzlangan bodiring</label>
+      </div>
+      
+      <div class="d-flex">
+        <input class="intro__checkbox-five" id="Qoziqorin" type="checkbox">
+        <label class="p-2 h5" for="Qoziqorin">Qoziqorin</label>
+      </div>
+      
+      <div class="d-flex">
+        <input class="intro__checkbox-six" id="Qazi" type="checkbox">
+        <label class="p-2 h5" for="Qazi">Qazi</label>
+      </div>
+    </div>
+  </form>
+  
+  <h2 class="h3 mt-4">Qo'shimchalar</h2>
+ <form class="d-flex px-3 info__form">
+   <div class="d-flex w-25 justify-content-between">
+     <div class="d-flex">
+       <input class="info__checkbox" id="Achchiq" type="checkbox">
+       <label class="p-2 h5" for="Achchiq">Achchiq</label>
+      </div>
+      
+      <div class="d-flex">
+        <input class="info__checkbox-two" id="Sosiskali" type="checkbox">
+        <label class="p-2 h5" for="Sosiskali">Sosiskali</label>
+      </div>
+    </form>
+    <div>
+      
+    </div>
+  </div>
+</div>
+<div class="px-5">
+  <p class="text h4  p-0 mt-3">Non:<span class="mintext fs-5"></span></p>
+  <p class="results__size h4 mt-3">Kataligi:
+    <span class="results__span-size fs-5"></span>
+  </p>
+  <ul class="results__listF fs-5 p-0 mt-3"><span class="h4">Ustida:</span></ul>
+  <ul class="results__list-info fs-5 p-0 mt-3"><span class="h4">Qo'shimcha:</span></ul>
+  <button class="btn btn-danger p-2">Buyurtma berish</button>
+</div>
+
+
+
+
+
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>
